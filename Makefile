@@ -2,6 +2,7 @@
 
 set_env:
 	python3 -m venv .venv
+	cp .env.example .env
 
 install: set_env
 # Using . instead of source because https://stackoverflow.com/a/53936226
